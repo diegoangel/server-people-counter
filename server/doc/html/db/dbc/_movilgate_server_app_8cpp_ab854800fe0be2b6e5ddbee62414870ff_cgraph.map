@@ -1,0 +1,6 @@
+<map id="signalHandler" name="signalHandler">
+<area shape="rect" id="node3" href="$d2/d21/class_blackfin_server.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running. " alt="" coords="155,5,328,35"/>
+<area shape="rect" id="node5" href="$d2/d21/class_blackfin_server.html#a05421937e602624d7a52976affb47f9b" title="Shutdown the server. " alt="" coords="155,58,328,105"/>
+<area shape="rect" id="node7" href="$dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235" title="Utility function for calling nanosleep. " alt="" coords="448,40,536,69"/>
+<area shape="rect" id="node9" href="$d2/d21/class_blackfin_server.html#a8c689841871ca8f8e9b2ae6fd6f29ece" title="Closes the connection to a Blackfin device and cleans up allocated memory. " alt="" coords="377,93,607,123"/>
+</map>

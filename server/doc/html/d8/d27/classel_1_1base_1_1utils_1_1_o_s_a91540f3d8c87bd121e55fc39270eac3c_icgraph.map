@@ -1,0 +1,5 @@
+<map id="el::base::utils::OS::getEnvironmentVariable" name="el::base::utils::OS::getEnvironmentVariable">
+<area shape="rect" id="node3" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#ac7839ecd50e379dbdfcfce130906386e" title="Gets current username. " alt="" coords="228,5,353,51"/>
+<area shape="rect" id="node5" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#aae4fdf83828228fc440f8a875c5942b0" title="Gets current host name or computer name. " alt="" coords="228,74,353,121"/>
+<area shape="rect" id="node7" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#a2c941329a14ce0ea920f57779857864c" title="Whether or not terminal supports colors. " alt="" coords="221,143,360,190"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="el::Configurations" name="el::Configurations">
+<area shape="rect" id="node2" href="$df/d72/classel_1_1base_1_1utils_1_1_registry_with_pred.html" title="{el::base::utils::Registry\lWithPred\&lt; Configuration,\l Configuration::Predicate \&gt;\n||+ RegistryWithPred()\l+ RegistryWithPred()\l+ ~RegistryWithPred()\l+ operator=()\l# unregisterAll()\l# unregister()\l# registerNew()\l# get()\l}" alt="" coords="21,673,200,914"/>
+<area shape="rect" id="node4" href="$db/d48/classel_1_1base_1_1utils_1_1_abstract_registry.html" title="{el::base::utils::Abstract\lRegistry\&lt; Configuration,\l std::vector\&lt; Configuration * \&gt; \&gt;\n||+ AbstractRegistry()\l+ AbstractRegistry()\l+ operator==()\l+ operator!=()\l+ operator=()\l+ ~AbstractRegistry()\l+ begin()\l+ end()\l+ cbegin()\l+ cend()\l+ empty()\l+ size()\l+ list()\l+ list()\l+ unregisterAll()\l# deepCopy()\l# reinitDeepCopy()\l}" alt="" coords="5,227,216,624"/>
+<area shape="rect" id="node6" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html" title="Base of thread safe class, this class is inheritable&#45;only. " alt="" coords="47,6,175,178"/>
+</map>

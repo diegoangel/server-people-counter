@@ -1,0 +1,16 @@
+requires 'DateTime', '>= 1.18';
+requires 'JSON::Parse', '>= 0.31';
+requires 'Cache::Memcached::Fast', '>= 0.23';
+requires 'Log::Log4perl', '>= 1.46';
+requires 'Log::Dispatch::FileRotate', '>= 1.19';
+
+on 'test' => sub {
+    recommends 'Test::Harness';
+    recommends 'Test::More';
+    recommends 'Test::Class';
+};
+
+on 'develop' => sub {
+    recommends 'Devel::NYTProf';
+    recommends 'Pod::Tree';
+};

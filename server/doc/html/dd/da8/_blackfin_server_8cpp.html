@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>Servidor Servicio Conteo Personas: Referencia del Archivo src/BlackfinServer.cpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Servidor Servicio Conteo Personas
+   &#160;<span id="projectnumber">1.2-beta</span>
+   </div>
+   <div id="projectbrief">Servidor Servicio Conteo Personas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="../../pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="../../annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="../../globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dd/da8/_blackfin_server_8cpp.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">'defines'</a> &#124;
+<a href="#typedef-members">'typedefs'</a> &#124;
+<a href="#enum-members">Enumeraciones</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo BlackfinServer.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d2/ddc/_blackfin_server_8h_source.html">BlackfinServer.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/d1b/easylogging_09_09_8h_source.html">easylogging++.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a>&gt;</code><br />
+<code>#include &lt;libmemcached/memcached.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;limits.h&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;syslog.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Dependencia gráfica adjunta para BlackfinServer.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d54/_blackfin_server_8cpp__incl.png" border="0" usemap="#src_2_blackfin_server_8cpp" alt=""/></div>
+<map name="src_2_blackfin_server_8cpp" id="src_2_blackfin_server_8cpp">
+<area shape="rect" id="node3" href="../../d2/ddc/_blackfin_server_8h.html" title="BlackfinServer.h" alt="" coords="2087,83,2204,112"/>
+<area shape="rect" id="node17" href="../../d8/d1b/easylogging_09_09_8h.html" title="easylogging++.h" alt="" coords="781,83,899,112"/>
+<area shape="rect" id="node56" href="../../d5/db8/json_8hpp.html" title="json.hpp" alt="" coords="1584,83,1653,112"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+'defines'</h2></td></tr>
+<tr class="memitem:a5dca5cbbbd18c88445f7c80133daa9f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a5dca5cbbbd18c88445f7c80133daa9f1">ELPP_NO_DEFAULT_LOG_FILE</a></td></tr>
+<tr class="separator:a5dca5cbbbd18c88445f7c80133daa9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+'typedefs'</h2></td></tr>
+<tr class="memitem:ab701e3ac61a85b337ec5c1abaad6742d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> = <a class="el" href="../../d3/d9b/namespacenlohmann.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></td></tr>
+<tr class="separator:ab701e3ac61a85b337ec5c1abaad6742d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumeraciones</h2></td></tr>
+<tr class="memitem:a8c841ac8c2ecae9b90d462e074bc4b5e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5e">UnitModifiers</a> : uint32_t { <br />
+&#160;&#160;<a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5eac352b36b8521a1d4e12a28683ddaad95">UnitModifiers::SetDeviceID</a> = 1, 
+<a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5ea13449378c2b31ad13df540ac24fb31e5">UnitModifiers::ResetCountLogs</a> = 2, 
+<a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5ea34b61e4bb811fa64dbef1f97a38545bb">UnitModifiers::SetPacketTimeout</a> = 3, 
+<a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5ea38edffa206ba085abdd8a900d60a3772">UnitModifiers::ResetCurrentCount</a> = 4, 
+<br />
+&#160;&#160;<a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5ea3229f0783f6436a894d76a33fe794212">UnitModifiers::SetCountLogPeriod</a> = 5, 
+<a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5ea1123bf43ce44f668176afa10487b0fff">UnitModifiers::SetDeviceName</a> = 6
+<br />
+ }<tr class="separator:a8c841ac8c2ecae9b90d462e074bc4b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:ad476b037966330ca8e0eb5341a7a1797"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#ad476b037966330ca8e0eb5341a7a1797">RetrieveCounterData</a> (Irisys::Blackfin *bf)</td></tr>
+<tr class="memdesc:ad476b037966330ca8e0eb5341a7a1797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method where all the information is gathered from the unit.  <a href="#ad476b037966330ca8e0eb5341a7a1797">Más...</a><br /></td></tr>
+<tr class="separator:ad476b037966330ca8e0eb5341a7a1797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc2416f782931b204f784e84ad15235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235">threadsleep</a> (i_uint32 dwMilliseconds)</td></tr>
+<tr class="memdesc:a2cc2416f782931b204f784e84ad15235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for calling nanosleep.  <a href="#a2cc2416f782931b204f784e84ad15235">Más...</a><br /></td></tr>
+<tr class="separator:a2cc2416f782931b204f784e84ad15235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2c20d4b6b6481897607a7bb2f6880b"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b">threadStart</a> (void *param)</td></tr>
+<tr class="memdesc:a5b2c20d4b6b6481897607a7bb2f6880b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point for the thread.  <a href="#a5b2c20d4b6b6481897607a7bb2f6880b">Más...</a><br /></td></tr>
+<tr class="separator:a5b2c20d4b6b6481897607a7bb2f6880b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><h2>Blackfin Server </h2>
+<dl class="section copyright"><dt>Copyright</dt><dd>Movilgate 2015 </dd></dl>
+</div><h2 class="groupheader">Documentación de los 'defines'</h2>
+<a class="anchor" id="a5dca5cbbbd18c88445f7c80133daa9f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ELPP_NO_DEFAULT_LOG_FILE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los 'typedefs'</h2>
+<a class="anchor" id="ab701e3ac61a85b337ec5c1abaad6742d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> =  <a class="el" href="../../d3/d9b/namespacenlohmann.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las enumeraciones</h2>
+<a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#a8c841ac8c2ecae9b90d462e074bc4b5e">UnitModifiers</a> : uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5eac352b36b8521a1d4e12a28683ddaad95"></a>SetDeviceID&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5ea13449378c2b31ad13df540ac24fb31e5"></a>ResetCountLogs&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5ea34b61e4bb811fa64dbef1f97a38545bb"></a>SetPacketTimeout&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5ea38edffa206ba085abdd8a900d60a3772"></a>ResetCurrentCount&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5ea3229f0783f6436a894d76a33fe794212"></a>SetCountLogPeriod&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8c841ac8c2ecae9b90d462e074bc4b5ea1123bf43ce44f668176afa10487b0fff"></a>SetDeviceName&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a class="anchor" id="ad476b037966330ca8e0eb5341a7a1797"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string RetrieveCounterData </td>
+          <td>(</td>
+          <td class="paramtype">Irisys::Blackfin *&#160;</td>
+          <td class="paramname"><em>bf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method where all the information is gathered from the unit. </p>
+<dl class="section note"><dt>Nota</dt><dd>sysctl -w net.core.somaxconn=1024 ADD net.core.somaxconn=1024 to /etc/sysctl.conf for it to become permanent</dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string </dd></dl>
+<p>GetDeviceID</p>
+<p>GetDeviceName</p>
+<p>GetUserString</p>
+<p>GetMACAddress</p>
+<p>GetIPAddress</p>
+<p>GetUnitTimeZone</p>
+<p>GetUpTime</p>
+<p>GetSiteName</p>
+<p>GetCountLogPeriod</p>
+<p>GetRegisterLabels </p>
+
+<p><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_cgraph.png" border="0" usemap="#dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_cgraph" alt=""/></div>
+<map name="dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_cgraph" id="dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_cgraph">
+<area shape="rect" id="node3" href="../../dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235" title="Utility function for calling nanosleep. " alt="" coords="231,5,319,35"/>
+<area shape="rect" id="node5" href="../../d9/dcc/classnlohmann_1_1basic__json.html#ab9a20bd1d391e9cb968db50c246f728d" title="returns the number of elements " alt="" coords="201,58,348,105"/>
+<area shape="rect" id="node7" href="../../d9/dcc/classnlohmann_1_1basic__json.html#ace93a69dd289b4b3a4263fdc6c31305f" title="serialization " alt="" coords="201,127,348,174"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_icgraph.png" border="0" usemap="#dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_icgraph" alt=""/></div>
+<map name="dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_icgraph" id="dd/da8/_blackfin_server_8cpp_ad476b037966330ca8e0eb5341a7a1797_icgraph">
+<area shape="rect" id="node3" href="../../d2/d21/class_blackfin_server.html#ab6922713f227eab1d1c55cdfc6749893" title="This thread run method polls each counter in the BlackfinData list every 10 seconds for data..." alt="" coords="200,5,333,35"/>
+<area shape="rect" id="node5" href="../../dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b" title="Entry point for the thread. " alt="" coords="383,5,468,35"/>
+<area shape="rect" id="node7" href="../../d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="517,5,699,35"/>
+<area shape="rect" id="node9" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="747,5,797,35"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2cc2416f782931b204f784e84ad15235"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void threadsleep </td>
+          <td>(</td>
+          <td class="paramtype">i_uint32&#160;</td>
+          <td class="paramname"><em>dwMilliseconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function for calling nanosleep. </p>
+
+<p><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da8/_blackfin_server_8cpp_a2cc2416f782931b204f784e84ad15235_icgraph.png" border="0" usemap="#dd/da8/_blackfin_server_8cpp_a2cc2416f782931b204f784e84ad15235_icgraph" alt=""/></div>
+<map name="dd/da8/_blackfin_server_8cpp_a2cc2416f782931b204f784e84ad15235_icgraph" id="dd/da8/_blackfin_server_8cpp_a2cc2416f782931b204f784e84ad15235_icgraph">
+<area shape="rect" id="node3" href="../../d2/d21/class_blackfin_server.html#a6f619d506292635968af89441e286556" title="Destructor. " alt="" coords="145,5,316,51"/>
+<area shape="rect" id="node5" href="../../d2/d21/class_blackfin_server.html#a05421937e602624d7a52976affb47f9b" title="Shutdown the server. " alt="" coords="144,74,317,121"/>
+<area shape="rect" id="node11" href="../../d2/d21/class_blackfin_server.html#ab6922713f227eab1d1c55cdfc6749893" title="This thread run method polls each counter in the BlackfinData list every 10 seconds for data..." alt="" coords="365,143,499,172"/>
+<area shape="rect" id="node18" href="../../dd/da8/_blackfin_server_8cpp.html#ad476b037966330ca8e0eb5341a7a1797" title="Method where all the information is gathered from the unit. " alt="" coords="159,195,303,224"/>
+<area shape="rect" id="node7" href="../../db/dbc/_movilgate_server_app_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="Windows signals handler &#160;Funcion para gestion de señales. Las señales suspension de ejecucion (Ctrl+Z..." alt="" coords="547,87,648,116"/>
+<area shape="rect" id="node9" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="925,115,976,144"/>
+<area shape="rect" id="node13" href="../../dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b" title="Entry point for the thread. " alt="" coords="555,141,640,171"/>
+<area shape="rect" id="node15" href="../../d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="696,140,877,169"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b2c20d4b6b6481897607a7bb2f6880b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* threadStart </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Entry point for the thread. </p>
+
+<p><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_cgraph.png" border="0" usemap="#dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_cgraph" alt=""/></div>
+<map name="dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_cgraph" id="dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_cgraph">
+<area shape="rect" id="node3" href="../../d2/d21/class_blackfin_server.html#ab6922713f227eab1d1c55cdfc6749893" title="This thread run method polls each counter in the BlackfinData list every 10 seconds for data..." alt="" coords="141,99,275,128"/>
+<area shape="rect" id="node5" href="../../dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235" title="Utility function for calling nanosleep. " alt="" coords="633,5,721,35"/>
+<area shape="rect" id="node7" href="../../d2/d21/class_blackfin_server.html#a8c689841871ca8f8e9b2ae6fd6f29ece" title="Closes the connection to a Blackfin device and cleans up allocated memory. " alt="" coords="324,45,553,75"/>
+<area shape="rect" id="node9" href="../../dd/da8/_blackfin_server_8cpp.html#ad476b037966330ca8e0eb5341a7a1797" title="Method where all the information is gathered from the unit. " alt="" coords="367,99,511,128"/>
+<area shape="rect" id="node16" href="../../d2/d21/class_blackfin_server.html#a5f17fd6482ff102051c5cc0fb11bd98a" title="Save data to memcached. " alt="" coords="367,152,511,181"/>
+<area shape="rect" id="node18" href="../../d2/d21/class_blackfin_server.html#a27139e5525e9ef267e2ff31f44d36d42" title="Delet data from memcached. " alt="" coords="352,205,525,251"/>
+<area shape="rect" id="node12" href="../../d9/dcc/classnlohmann_1_1basic__json.html#ab9a20bd1d391e9cb968db50c246f728d" title="returns the number of elements " alt="" coords="604,79,751,126"/>
+<area shape="rect" id="node14" href="../../d9/dcc/classnlohmann_1_1basic__json.html#ace93a69dd289b4b3a4263fdc6c31305f" title="serialization " alt="" coords="604,149,751,195"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_icgraph.png" border="0" usemap="#dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_icgraph" alt=""/></div>
+<map name="dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_icgraph" id="dd/da8/_blackfin_server_8cpp_a5b2c20d4b6b6481897607a7bb2f6880b_icgraph">
+<area shape="rect" id="node3" href="../../d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="141,5,323,35"/>
+<area shape="rect" id="node5" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="371,5,421,35"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dd/da8/_blackfin_server_8cpp.html">BlackfinServer.cpp</a></li>
+    <li class="footer">Generado el Lunes, 13 de Julio de 2015 14:42:29 para Servidor Servicio Conteo Personas por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
+  </ul>
+</div>
+</body>
+</html>

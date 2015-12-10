@@ -1,0 +1,8 @@
+<map id="el::base::Storage::validateEveryNCounter" name="el::base::Storage::validateEveryNCounter">
+<area shape="rect" id="node3" href="$dd/df9/classel_1_1base_1_1_storage.html#accd5495cdad77254eb24ef8f75cd71ad" title="el::base::Storage::\lhitCounters" alt="" coords="252,66,380,113"/>
+<area shape="rect" id="node5" href="$d2/dd5/classel_1_1base_1_1_registered_hit_counters.html#a18fecedc6be778cfd63e30cc42fb9c82" title="Validates counter for every N, i.e, registers new if does not exist otherwise updates original one..." alt="" coords="212,135,420,182"/>
+<area shape="rect" id="node7" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="501,5,629,51"/>
+<area shape="rect" id="node9" href="$df/d72/classel_1_1base_1_1utils_1_1_registry_with_pred.html#a561a5d418106a16473ff94d43a4b6b04" title="el::base::utils::Registry\lWithPred\&lt; base::HitCounter,\l base::HitCounter::Predicate\l \&gt;::registerNew" alt="" coords="471,74,660,155"/>
+<area shape="rect" id="node11" href="$d8/d0f/classel_1_1base_1_1_hit_counter.html#a04dcca0a3f1b1f9a0ef8d812f00cecf0" title="Validates hit counts and resets it if necessary. " alt="" coords="496,178,635,225"/>
+<area shape="rect" id="node13" href="$d8/d0f/classel_1_1base_1_1_hit_counter.html#a3df3a285c91b5eb690be48893d677e94" title="el::base::HitCounter\l::hitCounts" alt="" coords="496,247,635,294"/>
+</map>

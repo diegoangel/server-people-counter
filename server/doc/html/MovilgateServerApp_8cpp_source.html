@@ -1,0 +1,338 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Mobile Devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.1.2"/>
+        <script type="text/javascript" src="template/jquery-2.1.1.min.js"></script>
+        <title>Servicio Conteo de Personas: Fichero Fuente src/MovilgateServerApp.cpp</title>
+        <!--<link href="$relpath^tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+        <link href="customdoxygen.css" rel="stylesheet" type="text/css" />
+        <!--link href="template/customdoxygen.css" rel="stylesheet" type="text/css" /-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css.map">        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css.map">        
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="template/doxy-boot.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Servicio Conteo de Personas 0.1-alpha</a>
+                </div>
+            </div>
+        </nav>
+        <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 panel panel-default" style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>&apos;defines&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">MovilgateServerApp.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="MovilgateServerApp_8cpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;easylogging++.h&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;json.hpp&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;BlackfinServer.h&gt;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span>  </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;sys/types.h&gt;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;sys/stat.h&gt;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;signal.h&gt;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &lt;limits.h&gt;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &lt;syslog.h&gt;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &lt;libgen.h&gt;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">using</span> json = nlohmann::json;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="MovilgateServerApp_8cpp.html#a2e25352eed9ac9fe7758aaf000575577">   47</a></span>&#160;<span class="preprocessor">#define ELPP_THREAD_SAFE</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ELPP_NO_DEFAULT_LOG_FILE</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;INITIALIZE_EASYLOGGINGPP</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="classBlackfinServer.html">BlackfinServer</a> server;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">static</span> <span class="keyword">volatile</span> sig_atomic_t dieTotenHosenRules = 1;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;std::fstream pidfile;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;std::fstream logfile;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">const</span> std::string easyloggingConfigFile = <span class="stringliteral">&quot;/../conf/easylogging++.conf&quot;</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#ifdef linux</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> <a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="FUNCTIONS DECLARATIONS ///////////////////////////////.">signalHandler</a>(<span class="keywordtype">int</span> type);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span>BOOL WINAPI <a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="FUNCTIONS DECLARATIONS ///////////////////////////////.">signalHandler</a>(DWORD type);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keywordtype">void</span> <a class="code" href="MovilgateServerApp_8cpp.html#a0052c160faaaa9c9375d6f2b382eadac" title="Set some config options and initialize the logger facility.">initLogger</a>(<span class="keyword">const</span> std::string &amp;currentRunningProgramPath, <span class="keyword">const</span> std::string &amp;easyloggingConfigFile);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;std::string <a class="code" href="MovilgateServerApp_8cpp.html#a53eb83e29f3b6d899755ca07e23b1710" title="Function to get the directory where the executable program resides.">getSelfPath</a>();</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="code" href="MovilgateServerApp_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">   94</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="MovilgateServerApp_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="AND HERE IS WHERE ALL BEGINS... //////////////////////.">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]) </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    openlog (argv[0], LOG_PID, LOG_DAEMON);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">if</span> (argc &lt; 2) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;       syslog(LOG_WARNING, <span class="stringliteral">&quot;No parameters were received from command line. Taking default values from config file.&quot;</span>);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        pidfile.open(argv[1], std::fstream::trunc | std::fstream::in | std::fstream::out);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (!pidfile.is_open()) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            syslog(LOG_ERR, <span class="stringliteral">&quot;Could not open pidfile received trough command line&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            exit(EXIT_FAILURE);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keyword">const</span> std::string currentRunningProgramPath = <a class="code" href="MovilgateServerApp_8cpp.html#a53eb83e29f3b6d899755ca07e23b1710" title="Function to get the directory where the executable program resides.">getSelfPath</a>();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    pid_t pid, sid;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    pid = fork();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (pid &lt; 0) {      </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        exit(EXIT_FAILURE);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span> (pid &gt; 0) {           </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        exit(EXIT_SUCCESS);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    sid = setsid();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span> (sid &lt; 0) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        syslog(LOG_ERR, <span class="stringliteral">&quot;Failure on creating new session for the process&quot;</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        exit(EXIT_FAILURE);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    pid = fork();</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">if</span> (pid &lt; 0) {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        exit(EXIT_FAILURE);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">if</span> (pid &gt; 0) {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        pidfile &lt;&lt; std::to_string(pid) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        pidfile.close();        </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        exit(EXIT_SUCCESS);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    umask(0);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="MovilgateServerApp_8cpp.html#a0052c160faaaa9c9375d6f2b382eadac" title="Set some config options and initialize the logger facility.">initLogger</a>(currentRunningProgramPath, easyloggingConfigFile);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">#ifdef linux</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor"></span>    <span class="keyword">struct </span>sigaction sa;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    sigemptyset(&amp;sa.sa_mask);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    sa.sa_flags = 0;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    sa.sa_handler = <a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="FUNCTIONS DECLARATIONS ///////////////////////////////.">signalHandler</a>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    sigaction(SIGTSTP, &amp;sa, NULL);        </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    sigaction(SIGHUP, &amp;sa, NULL); </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    sigaction(SIGINT, &amp;sa, NULL);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    sigaction(SIGTERM, &amp;sa, NULL);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    SetConsoleCtrlHandler(<a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="FUNCTIONS DECLARATIONS ///////////////////////////////.">signalHandler</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">if</span> ((chdir(<span class="stringliteral">&quot;/&quot;</span>)) &lt; 0) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        LOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;Can&#39;t change the current process working directory&quot;</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        exit(EXIT_FAILURE);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    close(STDIN_FILENO);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    close(STDOUT_FILENO);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    close(STDERR_FILENO);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">if</span> (server.<a class="code" href="classBlackfinServer.html#a96d8051cbe86b0369ae481fa7353c544">StartServer</a>(currentRunningProgramPath)) {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Server started&quot;</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">while</span> (dieTotenHosenRules) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            server.HandleIncomingConnections(); </div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            sleep(10); </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        LOG(ERROR) &lt;&lt; <span class="stringliteral">&quot;Server failed on start&quot;</span>;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Server terminated&quot;</span>;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    closelog();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    exit(EXIT_SUCCESS);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;}</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">#ifdef linux</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keywordtype">void</span> <a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="FUNCTIONS DECLARATIONS ///////////////////////////////.">signalHandler</a>(<span class="keywordtype">int</span> type) </div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;{</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">switch</span> (type) {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">case</span> SIGHUP:</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            LOG(DEBUG) &lt;&lt; <span class="stringliteral">&quot;Terminal was closed, BlackfinServer keep working in background...&quot;</span>;  </div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">case</span> SIGTSTP:</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            LOG(DEBUG) &lt;&lt; <span class="stringliteral">&quot;Ignoring the attempt to suspend the execution, BlackfinServer keep running...&quot;</span>;            </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">case</span> SIGINT:</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">if</span> (server.<a class="code" href="classBlackfinServer.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running.">isRunning</a>()) {            </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                LOG(DEBUG) &lt;&lt; <span class="stringliteral">&quot;CTRL+C signal received, quitting BlackfinServer...&quot;</span>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                server.<a class="code" href="classBlackfinServer.html#a05421937e602624d7a52976affb47f9b">ShutdownServer</a>();</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            } </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            dieTotenHosenRules = 0;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            exit(EXIT_SUCCESS);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">case</span> SIGTERM:</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">if</span> (server.<a class="code" href="classBlackfinServer.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running.">isRunning</a>()) {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                LOG(DEBUG) &lt;&lt; <span class="stringliteral">&quot;Kill pid signal received, quitting BlackfinServer...&quot;</span>;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                server.<a class="code" href="classBlackfinServer.html#a05421937e602624d7a52976affb47f9b">ShutdownServer</a>();</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            }  </div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            dieTotenHosenRules = 0;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            exit(EXIT_SUCCESS);            </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            LOG(DEBUG) &lt;&lt; <span class="stringliteral">&quot;Caught wrong signal&quot;</span>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;}</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff">  258</a></span>&#160;BOOL WINAPI <a class="code" href="MovilgateServerApp_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="FUNCTIONS DECLARATIONS ///////////////////////////////.">signalHandler</a>(DWORD type)</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;{</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordtype">bool</span> ret;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">case</span> CTRL_C_EVENT:</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordflow">case</span> CTRL_BREAK_EVENT: </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">if</span> (server.<a class="code" href="classBlackfinServer.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running.">isRunning</a>()) {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                dieTotenHosenRules = 0;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Ctrl+C or Ctrl+Break signal received, quitting BlackfinServer...&quot;</span>;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                server.<a class="code" href="classBlackfinServer.html#a05421937e602624d7a52976affb47f9b">ShutdownServer</a>();</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            ret = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="keywordflow">case</span> CTRL_CLOSE_EVENT:</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            LOG(DEBUG) &lt;&lt; <span class="stringliteral">&quot;Terminal was closed, BlackfinServer keep working in background...&quot;</span>;          </div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            ret <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">case</span> CTRL_LOGOFF_EVENT:</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;User loging off signal received, I hope you&#39;ve run this service using Windows Task Scheduler....&quot;</span>;    </div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            ret <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keywordflow">case</span> CTRL_SHUTDOWN_EVENT:</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordflow">if</span> (server.<a class="code" href="classBlackfinServer.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running.">isRunning</a>()) {    </div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                dieTotenHosenRules = 0;        </div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                LOG(INFO) &lt;&lt; <span class="stringliteral">&quot;Shutting down signal received, quitting BlackfinServer...&quot;</span>;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                server.<a class="code" href="classBlackfinServer.html#a05421937e602624d7a52976affb47f9b">ShutdownServer</a>();</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                ret <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;}</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00301"></a><span class="lineno"><a class="code" href="MovilgateServerApp_8cpp.html#a0052c160faaaa9c9375d6f2b382eadac">  301</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="MovilgateServerApp_8cpp.html#a0052c160faaaa9c9375d6f2b382eadac" title="Set some config options and initialize the logger facility.">initLogger</a>(<span class="keyword">const</span> std::string &amp;currentRunningProgramPath, <span class="keyword">const</span> std::string &amp;easyloggingConfigFile) </div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;{</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    std::string absConfigFilePath = currentRunningProgramPath + easyloggingConfigFile;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    el::Loggers::addFlag(el::LoggingFlag::ColoredTerminalOutput);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    el::Loggers::addFlag(el::LoggingFlag::HierarchicalLogging);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    el::Configurations confFromFile(absConfigFilePath);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    el::Loggers::reconfigureAllLoggers(confFromFile);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;}</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00316"></a><span class="lineno"><a class="code" href="MovilgateServerApp_8cpp.html#a53eb83e29f3b6d899755ca07e23b1710">  316</a></span>&#160;std::string <a class="code" href="MovilgateServerApp_8cpp.html#a53eb83e29f3b6d899755ca07e23b1710" title="Function to get the directory where the executable program resides.">getSelfPath</a>() </div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;{</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordtype">char</span> buff[PATH_MAX];</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    ssize_t len = readlink(<span class="stringliteral">&quot;/proc/self/exe&quot;</span>, buff, <span class="keyword">sizeof</span>(buff)-1);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordflow">if</span> (len != -1) {</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        buff[len] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        std::string programDirname = std::string(dirname(const_cast&lt;char*&gt;(buff)));</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keywordflow">return</span> programDirname;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordflow">return</span> std::string(); </div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;}</div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>
+Generado el Viernes, 10 de Julio de 2015 19:40:19 para Servicio Conteo de Personas por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>

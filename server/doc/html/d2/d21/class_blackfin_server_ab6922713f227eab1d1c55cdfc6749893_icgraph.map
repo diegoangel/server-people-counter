@@ -1,0 +1,5 @@
+<map id="BlackfinServer::run" name="BlackfinServer::run">
+<area shape="rect" id="node3" href="$dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b" title="Entry point for the thread. " alt="" coords="188,5,273,35"/>
+<area shape="rect" id="node5" href="$d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="323,5,504,35"/>
+<area shape="rect" id="node7" href="$db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="552,5,603,35"/>
+</map>

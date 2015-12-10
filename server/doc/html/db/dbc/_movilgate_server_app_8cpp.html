@@ -1,0 +1,496 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>Servidor Servicio Conteo Personas: Referencia del Archivo src/MovilgateServerApp.cpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Servidor Servicio Conteo Personas
+   &#160;<span id="projectnumber">1.2-beta</span>
+   </div>
+   <div id="projectbrief">Servidor Servicio Conteo Personas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="../../pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="../../annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="../../globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('db/dbc/_movilgate_server_app_8cpp.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">'defines'</a> &#124;
+<a href="#typedef-members">'typedefs'</a> &#124;
+<a href="#func-members">Funciones</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo MovilgateServerApp.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d8/d1b/easylogging_09_09_8h_source.html">easylogging++.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/ddc/_blackfin_server_8h_source.html">BlackfinServer.h</a>&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;sys/stat.h&gt;</code><br />
+<code>#include &lt;signal.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;limits.h&gt;</code><br />
+<code>#include &lt;syslog.h&gt;</code><br />
+<code>#include &lt;libgen.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Dependencia gráfica adjunta para MovilgateServerApp.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d37/_movilgate_server_app_8cpp__incl.png" border="0" usemap="#src_2_movilgate_server_app_8cpp" alt=""/></div>
+<map name="src_2_movilgate_server_app_8cpp" id="src_2_movilgate_server_app_8cpp">
+<area shape="rect" id="node3" href="../../d8/d1b/easylogging_09_09_8h.html" title="easylogging++.h" alt="" coords="797,83,915,112"/>
+<area shape="rect" id="node43" href="../../d5/db8/json_8hpp.html" title="json.hpp" alt="" coords="1561,83,1631,112"/>
+<area shape="rect" id="node71" href="../../d2/ddc/_blackfin_server_8h.html" title="BlackfinServer.h" alt="" coords="2345,83,2463,112"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+'defines'</h2></td></tr>
+<tr class="memitem:a2e25352eed9ac9fe7758aaf000575577"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a2e25352eed9ac9fe7758aaf000575577">ELPP_THREAD_SAFE</a></td></tr>
+<tr class="separator:a2e25352eed9ac9fe7758aaf000575577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dca5cbbbd18c88445f7c80133daa9f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a5dca5cbbbd18c88445f7c80133daa9f1">ELPP_NO_DEFAULT_LOG_FILE</a></td></tr>
+<tr class="separator:a5dca5cbbbd18c88445f7c80133daa9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+'typedefs'</h2></td></tr>
+<tr class="memitem:ab701e3ac61a85b337ec5c1abaad6742d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> = <a class="el" href="../../d3/d9b/namespacenlohmann.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></td></tr>
+<tr class="separator:ab701e3ac61a85b337ec5c1abaad6742d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:ab854800fe0be2b6e5ddbee62414870ff"><td class="memItemLeft" align="right" valign="top">BOOL WINAPI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff">signalHandler</a> (DWORD type)</td></tr>
+<tr class="memdesc:ab854800fe0be2b6e5ddbee62414870ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windows signals handler  Funcion para gestion de señales. Las señales suspension de ejecucion (Ctrl+Z) y el cierre de la ventana de la terminal son ignoradas. Para que la funcion se ejecute aun, si ningun usuario esta logueado, se debe ejecutar utilizando Windows Task Scheduler.  <a href="#ab854800fe0be2b6e5ddbee62414870ff">Más...</a><br /></td></tr>
+<tr class="separator:ab854800fe0be2b6e5ddbee62414870ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0052c160faaaa9c9375d6f2b382eadac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0052c160faaaa9c9375d6f2b382eadac">initLogger</a> (const std::string &amp;currentRunningProgramPath, const std::string &amp;<a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#af77006739df3ab325f365750dacdb14c">easyloggingConfigFile</a>)</td></tr>
+<tr class="memdesc:a0052c160faaaa9c9375d6f2b382eadac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set some config options and initialize the logger facility.  <a href="#a0052c160faaaa9c9375d6f2b382eadac">Más...</a><br /></td></tr>
+<tr class="separator:a0052c160faaaa9c9375d6f2b382eadac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53eb83e29f3b6d899755ca07e23b1710"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a53eb83e29f3b6d899755ca07e23b1710">getSelfPath</a> ()</td></tr>
+<tr class="memdesc:a53eb83e29f3b6d899755ca07e23b1710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to get the directory where the executable program resides.  <a href="#a53eb83e29f3b6d899755ca07e23b1710">Más...</a><br /></td></tr>
+<tr class="separator:a53eb83e29f3b6d899755ca07e23b1710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a445fc090ae451b131162f83b611bf69b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d21/class_blackfin_server.html">BlackfinServer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a445fc090ae451b131162f83b611bf69b">server</a></td></tr>
+<tr class="separator:a445fc090ae451b131162f83b611bf69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bdd8f9b0e84d1fe593c7fe330949b52"><td class="memItemLeft" align="right" valign="top">std::fstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a2bdd8f9b0e84d1fe593c7fe330949b52">pidfile</a></td></tr>
+<tr class="separator:a2bdd8f9b0e84d1fe593c7fe330949b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff444a73aa917fa9b5bc9a7a335e54e"><td class="memItemLeft" align="right" valign="top">std::fstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#a5ff444a73aa917fa9b5bc9a7a335e54e">logfile</a></td></tr>
+<tr class="separator:a5ff444a73aa917fa9b5bc9a7a335e54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af77006739df3ab325f365750dacdb14c"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html#af77006739df3ab325f365750dacdb14c">easyloggingConfigFile</a> = &quot;/../conf/easylogging++.conf&quot;</td></tr>
+<tr class="separator:af77006739df3ab325f365750dacdb14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><h2><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html">MovilgateServerApp.cpp</a> : Defines the entry point for the console application. </h2>
+<dl class="section warning"><dt>Atención</dt><dd>This program wasn't compiled or tested in Windows and may not be fully compatible. in fact, I'm really sure that it's not... sincerely yours, El Ziscador. </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Movilgate 2015</dd></dl>
+<p>This application uses a two thread approach to handle client ip connections. The main thread polls the socket for incoming connection requests, and when one arrives, it creates a Blackfin object and adds it to a list to be polled for data at a regular interval by the server thread. This is especially suitable for embedded systems, although it should be noted that each Blackfin object is based upon a threaded model and so a new thread will be spawned for every current connection.</p>
+<p>An alternative to this is to spawn a new "action" thread every time a client connection is made in order to handle the specific needs of counter data retrieval. </p>
+</div><h2 class="groupheader">Documentación de los 'defines'</h2>
+<a class="anchor" id="a5dca5cbbbd18c88445f7c80133daa9f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ELPP_NO_DEFAULT_LOG_FILE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2e25352eed9ac9fe7758aaf000575577"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ELPP_THREAD_SAFE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los 'typedefs'</h2>
+<a class="anchor" id="ab701e3ac61a85b337ec5c1abaad6742d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/da8/_blackfin_server_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> =  <a class="el" href="../../d3/d9b/namespacenlohmann.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Nota</dt><dd>Order of includes: Local includes, Third party includes and STL. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a class="anchor" id="a53eb83e29f3b6d899755ca07e23b1710"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string getSelfPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to get the directory where the executable program resides. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>string </dd></dl>
+
+<p><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbc/_movilgate_server_app_8cpp_a53eb83e29f3b6d899755ca07e23b1710_icgraph.png" border="0" usemap="#db/dbc/_movilgate_server_app_8cpp_a53eb83e29f3b6d899755ca07e23b1710_icgraph" alt=""/></div>
+<map name="db/dbc/_movilgate_server_app_8cpp_a53eb83e29f3b6d899755ca07e23b1710_icgraph" id="db/dbc/_movilgate_server_app_8cpp_a53eb83e29f3b6d899755ca07e23b1710_icgraph">
+<area shape="rect" id="node3" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="144,5,195,35"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0052c160faaaa9c9375d6f2b382eadac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initLogger </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>currentRunningProgramPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>easyloggingConfigFile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set some config options and initialize the logger facility. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>configFile. Path of the Easylogging++ configuration file </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>void </dd></dl>
+
+<p><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_cgraph.png" border="0" usemap="#db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_cgraph" alt=""/></div>
+<map name="db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_cgraph" id="db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_cgraph">
+<area shape="rect" id="node3" href="../../da/d87/classel_1_1_loggers.html#aedd2de02dd701b0f20ddaa10f1f728f1" title="Adds logging flag used internally. " alt="" coords="144,83,283,112"/>
+<area shape="rect" id="node5" href="../../da/d87/classel_1_1_loggers.html#ac834df0f5e9e3dab18e70321a2543af7" title="Reconfigures all the existing loggers with new configurations. " alt="" coords="135,135,292,182"/>
+<area shape="rect" id="node7" href="../../da/d87/classel_1_1_loggers.html#a888aca5bdccccc322da2eed430909d04" title="Reconfigures specified logger with new configurations. " alt="" coords="343,135,500,182"/>
+<area shape="rect" id="node9" href="../../d2/d28/classel_1_1_logger.html#ad9db621dbf8977bf814dc7baea8dcee4" title="Configures the logger using specified configurations. " alt="" coords="551,144,689,173"/>
+<area shape="rect" id="node11" href="../../d1/df2/classel_1_1base_1_1_typed_configurations.html#a65d2ec91ff7edc07db304ebd9c30291f" title="el::base::TypedConfigurations\l::configurations" alt="" coords="740,5,935,51"/>
+<area shape="rect" id="node13" href="../../db/d63/classel_1_1_configurations.html#a1e812370f896b6429bf46b31fcd4e3e0" title="Determines whether or not specified configuration type exists in the repository. " alt="" coords="773,74,901,121"/>
+<area shape="rect" id="node19" href="../../d2/d28/classel_1_1_logger.html#a9a89d454008b1ee1a197eec4b92ce22a" title="Flushes logger to sync all log files for all levels. " alt="" coords="780,144,895,173"/>
+<area shape="rect" id="node21" href="../../d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="1220,214,1348,261"/>
+<area shape="rect" id="node26" href="../../db/d63/classel_1_1_configurations.html#a4c6db218908b39d23cc09b1a16a18e83" title="Sets configuration based&#45;off an existing configurations. " alt="" coords="776,274,899,321"/>
+<area shape="rect" id="node15" href="../../d7/d50/classel_1_1_level_helper.html#a94449b79778145f4c58fd1da6bcaf45d" title="Applies specified function to each level starting from startIndex. " alt="" coords="996,77,1159,123"/>
+<area shape="rect" id="node17" href="../../d7/d50/classel_1_1_level_helper.html#a1279f27df29a003df5ecc3d0bf4dacbb" title="Casts int(ushort) to level, useful for iterating through enum. " alt="" coords="984,24,1171,53"/>
+<area shape="rect" id="node29" href="../../db/d48/classel_1_1base_1_1utils_1_1_abstract_registry.html#a072859d3728a75f910c2898f62fd12da" title="Returns underlying container by reference. " alt="" coords="999,301,1156,347"/>
+<area shape="rect" id="node31" href="../../db/d63/classel_1_1_configurations.html#a332717de96efc851a202b7afcc5e395c" title="Sets value of configuration for specified level. " alt="" coords="1003,248,1152,277"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_icgraph.png" border="0" usemap="#db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_icgraph" alt=""/></div>
+<map name="db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_icgraph" id="db/dbc/_movilgate_server_app_8cpp_a0052c160faaaa9c9375d6f2b382eadac_icgraph">
+<area shape="rect" id="node3" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="133,5,184,35"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Expected parameters: argv[1] pidfile, argv[2] logfile</p>
+<dl class="section note"><dt>Nota</dt><dd>IMPORTANT! all futures paths in the program will be built relative to this one. Return the dirname where the executable program resides. e.g. This function should return something like /program/executable/absolute/path/server/bin</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000001">Tareas pendientes:</a></b></dt><dd>Read config settings from file here. </dd></dl>
+<p>Write the pid into pidfile and exit. </p>
+
+<p><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbc/_movilgate_server_app_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#db/dbc/_movilgate_server_app_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="db/dbc/_movilgate_server_app_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="db/dbc/_movilgate_server_app_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect" id="node3" href="../../db/dbc/_movilgate_server_app_8cpp.html#a53eb83e29f3b6d899755ca07e23b1710" title="Function to get the directory where the executable program resides. " alt="" coords="164,315,255,344"/>
+<area shape="rect" id="node5" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0052c160faaaa9c9375d6f2b382eadac" title="Set some config options and initialize the logger facility. " alt="" coords="171,368,248,398"/>
+<area shape="rect" id="node38" href="../../db/dbc/_movilgate_server_app_8cpp.html#ab854800fe0be2b6e5ddbee62414870ff" title="Windows signals handler &#160;Funcion para gestion de señales. Las señales suspension de ejecucion (Ctrl+Z..." alt="" coords="392,552,493,582"/>
+<area shape="rect" id="node48" href="../../d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="119,438,300,467"/>
+<area shape="rect" id="node70" href="../../d2/d21/class_blackfin_server.html#af8e711c2797676baaab972a1c1929605" title="Called by the main thread to check for and process new connections. " alt="" coords="105,541,313,588"/>
+<area shape="rect" id="node7" href="../../da/d87/classel_1_1_loggers.html#aedd2de02dd701b0f20ddaa10f1f728f1" title="Adds logging flag used internally. " alt="" coords="373,352,512,382"/>
+<area shape="rect" id="node9" href="../../da/d87/classel_1_1_loggers.html#ac834df0f5e9e3dab18e70321a2543af7" title="Reconfigures all the existing loggers with new configurations. " alt="" coords="364,245,521,292"/>
+<area shape="rect" id="node11" href="../../da/d87/classel_1_1_loggers.html#a888aca5bdccccc322da2eed430909d04" title="Reconfigures specified logger with new configurations. " alt="" coords="579,228,736,274"/>
+<area shape="rect" id="node13" href="../../d2/d28/classel_1_1_logger.html#ad9db621dbf8977bf814dc7baea8dcee4" title="Configures the logger using specified configurations. " alt="" coords="839,231,977,260"/>
+<area shape="rect" id="node15" href="../../d1/df2/classel_1_1base_1_1_typed_configurations.html#a65d2ec91ff7edc07db304ebd9c30291f" title="el::base::TypedConfigurations\l::configurations" alt="" coords="1073,392,1268,438"/>
+<area shape="rect" id="node17" href="../../db/d63/classel_1_1_configurations.html#a1e812370f896b6429bf46b31fcd4e3e0" title="Determines whether or not specified configuration type exists in the repository. " alt="" coords="1107,98,1235,145"/>
+<area shape="rect" id="node23" href="../../d2/d28/classel_1_1_logger.html#a9a89d454008b1ee1a197eec4b92ce22a" title="Flushes logger to sync all log files for all levels. " alt="" coords="1113,46,1228,75"/>
+<area shape="rect" id="node25" href="../../d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="1553,220,1681,266"/>
+<area shape="rect" id="node30" href="../../db/d63/classel_1_1_configurations.html#a4c6db218908b39d23cc09b1a16a18e83" title="Sets configuration based&#45;off an existing configurations. " alt="" coords="1109,221,1232,268"/>
+<area shape="rect" id="node19" href="../../d7/d50/classel_1_1_level_helper.html#a94449b79778145f4c58fd1da6bcaf45d" title="Applies specified function to each level starting from startIndex. " alt="" coords="1329,98,1492,145"/>
+<area shape="rect" id="node21" href="../../d7/d50/classel_1_1_level_helper.html#a1279f27df29a003df5ecc3d0bf4dacbb" title="Casts int(ushort) to level, useful for iterating through enum. " alt="" coords="1317,46,1504,75"/>
+<area shape="rect" id="node33" href="../../db/d48/classel_1_1base_1_1utils_1_1_abstract_registry.html#a072859d3728a75f910c2898f62fd12da" title="Returns underlying container by reference. " alt="" coords="1332,218,1489,265"/>
+<area shape="rect" id="node35" href="../../db/d63/classel_1_1_configurations.html#a332717de96efc851a202b7afcc5e395c" title="Sets value of configuration for specified level. " alt="" coords="1336,288,1485,318"/>
+<area shape="rect" id="node40" href="../../d2/d21/class_blackfin_server.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running. " alt="" coords="571,552,744,582"/>
+<area shape="rect" id="node42" href="../../d2/d21/class_blackfin_server.html#a05421937e602624d7a52976affb47f9b" title="Shutdown the server. " alt="" coords="571,605,744,652"/>
+<area shape="rect" id="node44" href="../../dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235" title="Utility function for calling nanosleep. " alt="" coords="1127,600,1215,630"/>
+<area shape="rect" id="node46" href="../../d2/d21/class_blackfin_server.html#a8c689841871ca8f8e9b2ae6fd6f29ece" title="Closes the connection to a Blackfin device and cleans up allocated memory. " alt="" coords="793,608,1023,638"/>
+<area shape="rect" id="node50" href="../../d9/dcc/classnlohmann_1_1basic__json.html#a6af88cc5273ecd99e06cfedab383fde6" title="deserialize from string " alt="" coords="369,429,516,476"/>
+<area shape="rect" id="node53" href="../../dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b" title="Entry point for the thread. " alt="" coords="400,499,485,528"/>
+<area shape="rect" id="node55" href="../../d2/d21/class_blackfin_server.html#ab6922713f227eab1d1c55cdfc6749893" title="This thread run method polls each counter in the BlackfinData list every 10 seconds for data..." alt="" coords="591,499,724,528"/>
+<area shape="rect" id="node59" href="../../dd/da8/_blackfin_server_8cpp.html#ad476b037966330ca8e0eb5341a7a1797" title="Method where all the information is gathered from the unit. " alt="" coords="836,504,980,534"/>
+<area shape="rect" id="node66" href="../../d2/d21/class_blackfin_server.html#a5f17fd6482ff102051c5cc0fb11bd98a" title="Save data to memcached. " alt="" coords="836,382,980,411"/>
+<area shape="rect" id="node68" href="../../d2/d21/class_blackfin_server.html#a27139e5525e9ef267e2ff31f44d36d42" title="Delet data from memcached. " alt="" coords="821,434,995,481"/>
+<area shape="rect" id="node62" href="../../d9/dcc/classnlohmann_1_1basic__json.html#ab9a20bd1d391e9cb968db50c246f728d" title="returns the number of elements " alt="" coords="1097,530,1244,577"/>
+<area shape="rect" id="node64" href="../../d9/dcc/classnlohmann_1_1basic__json.html#ace93a69dd289b4b3a4263fdc6c31305f" title="serialization " alt="" coords="1097,461,1244,508"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab854800fe0be2b6e5ddbee62414870ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOL WINAPI signalHandler </td>
+          <td>(</td>
+          <td class="paramtype">DWORD&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Windows signals handler  Funcion para gestion de señales. Las señales suspension de ejecucion (Ctrl+Z) y el cierre de la ventana de la terminal son ignoradas. Para que la funcion se ejecute aun, si ningun usuario esta logueado, se debe ejecutar utilizando Windows Task Scheduler. </p>
+<dl class="section see"><dt>Ver también</dt><dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686016%28v=vs.85%29.aspx">https://msdn.microsoft.com/en-us/library/windows/desktop/ms686016%28v=vs.85%29.aspx</a> <a href="http://asawicki.info/news_1465_handling_ctrlc_in_windows_console_application.html">http://asawicki.info/news_1465_handling_ctrlc_in_windows_console_application.html</a> </dd></dl>
+<dl class="section warning"><dt>Atención</dt><dd>Esta funcion no esta testeada. </dd></dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bool </dd></dl>
+
+<p><div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_cgraph.png" border="0" usemap="#db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_cgraph" alt=""/></div>
+<map name="db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_cgraph" id="db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_cgraph">
+<area shape="rect" id="node3" href="../../d2/d21/class_blackfin_server.html#a80c525ce4e64345e87744e8d2880d01e" title="Check if the server is running. " alt="" coords="155,5,328,35"/>
+<area shape="rect" id="node5" href="../../d2/d21/class_blackfin_server.html#a05421937e602624d7a52976affb47f9b" title="Shutdown the server. " alt="" coords="155,58,328,105"/>
+<area shape="rect" id="node7" href="../../dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235" title="Utility function for calling nanosleep. " alt="" coords="448,40,536,69"/>
+<area shape="rect" id="node9" href="../../d2/d21/class_blackfin_server.html#a8c689841871ca8f8e9b2ae6fd6f29ece" title="Closes the connection to a Blackfin device and cleans up allocated memory. " alt="" coords="377,93,607,123"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_icgraph.png" border="0" usemap="#db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_icgraph" alt=""/></div>
+<map name="db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_icgraph" id="db/dbc/_movilgate_server_app_8cpp_ab854800fe0be2b6e5ddbee62414870ff_icgraph">
+<area shape="rect" id="node3" href="../../db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="155,5,205,35"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las variables</h2>
+<a class="anchor" id="af77006739df3ab325f365750dacdb14c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string easyloggingConfigFile = &quot;/../conf/easylogging++.conf&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ff444a73aa917fa9b5bc9a7a335e54e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::fstream logfile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2bdd8f9b0e84d1fe593c7fe330949b52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::fstream pidfile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a445fc090ae451b131162f83b611bf69b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d21/class_blackfin_server.html">BlackfinServer</a> server</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../db/dbc/_movilgate_server_app_8cpp.html">MovilgateServerApp.cpp</a></li>
+    <li class="footer">Generado el Lunes, 13 de Julio de 2015 14:42:29 para Servidor Servicio Conteo Personas por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
+  </ul>
+</div>
+</body>
+</html>

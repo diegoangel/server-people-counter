@@ -1,0 +1,8 @@
+<map id="nlohmann::basic_json::dump" name="nlohmann::basic_json::dump">
+<area shape="rect" id="node3" href="$dd/d6b/structstd_1_1hash_3_01nlohmann_1_1json_01_4.html#afd03f6ad53db22868ca4163a8200b2f9" title="return a hash value for a JSON object " alt="" coords="204,5,348,51"/>
+<area shape="rect" id="node5" href="$dd/da8/_blackfin_server_8cpp.html#ad476b037966330ca8e0eb5341a7a1797" title="Method where all the information is gathered from the unit. " alt="" coords="204,75,348,104"/>
+<area shape="rect" id="node7" href="$d2/d21/class_blackfin_server.html#ab6922713f227eab1d1c55cdfc6749893" title="This thread run method polls each counter in the BlackfinData list every 10 seconds for data..." alt="" coords="397,75,531,104"/>
+<area shape="rect" id="node9" href="$dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b" title="Entry point for the thread. " alt="" coords="580,75,665,104"/>
+<area shape="rect" id="node11" href="$d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="715,75,896,104"/>
+<area shape="rect" id="node13" href="$db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="944,75,995,104"/>
+</map>

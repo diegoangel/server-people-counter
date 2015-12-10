@@ -1,0 +1,9 @@
+<map id="BlackfinServer::run" name="BlackfinServer::run">
+<area shape="rect" id="node3" href="$dd/da8/_blackfin_server_8cpp.html#a2cc2416f782931b204f784e84ad15235" title="Utility function for calling nanosleep. " alt="" coords="497,5,585,35"/>
+<area shape="rect" id="node5" href="$d2/d21/class_blackfin_server.html#a8c689841871ca8f8e9b2ae6fd6f29ece" title="Closes the connection to a Blackfin device and cleans up allocated memory. " alt="" coords="188,45,417,75"/>
+<area shape="rect" id="node7" href="$dd/da8/_blackfin_server_8cpp.html#ad476b037966330ca8e0eb5341a7a1797" title="Method where all the information is gathered from the unit. " alt="" coords="231,99,375,128"/>
+<area shape="rect" id="node14" href="$d2/d21/class_blackfin_server.html#a5f17fd6482ff102051c5cc0fb11bd98a" title="Save data to memcached. " alt="" coords="231,152,375,181"/>
+<area shape="rect" id="node16" href="$d2/d21/class_blackfin_server.html#a27139e5525e9ef267e2ff31f44d36d42" title="Delet data from memcached. " alt="" coords="216,205,389,251"/>
+<area shape="rect" id="node10" href="$d9/dcc/classnlohmann_1_1basic__json.html#ab9a20bd1d391e9cb968db50c246f728d" title="returns the number of elements " alt="" coords="468,79,615,126"/>
+<area shape="rect" id="node12" href="$d9/dcc/classnlohmann_1_1basic__json.html#ace93a69dd289b4b3a4263fdc6c31305f" title="serialization " alt="" coords="468,149,615,195"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="BlackfinServer::HasResetCurrentCount" name="BlackfinServer::HasResetCurrentCount">
+<area shape="rect" id="node3" href="$d2/d21/class_blackfin_server.html#ab6922713f227eab1d1c55cdfc6749893" title="This thread run method polls each counter in the BlackfinData list every 10 seconds for data..." alt="" coords="229,13,363,43"/>
+<area shape="rect" id="node5" href="$dd/da8/_blackfin_server_8cpp.html#a5b2c20d4b6b6481897607a7bb2f6880b" title="Entry point for the thread. " alt="" coords="412,13,497,43"/>
+<area shape="rect" id="node7" href="$d2/d21/class_blackfin_server.html#a96d8051cbe86b0369ae481fa7353c544" title="Binds the server socket and starts the thread to process the connected devices. " alt="" coords="547,13,728,43"/>
+<area shape="rect" id="node9" href="$db/dbc/_movilgate_server_app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="776,13,827,43"/>
+</map>

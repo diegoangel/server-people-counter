@@ -1,0 +1,4 @@
+<map id="el::base::utils::OS::currentHost" name="el::base::utils::OS::currentHost">
+<area shape="rect" id="node3" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#a91540f3d8c87bd121e55fc39270eac3c" title="Gets environment variable. This is cross&#45;platform and CRT safe (for VC++) " alt="" coords="181,5,349,51"/>
+<area shape="rect" id="node5" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#a91304c76c872459eaa9fdb3466367cd3" title="Runs command on terminal and returns the output. " alt="" coords="399,5,524,51"/>
+</map>

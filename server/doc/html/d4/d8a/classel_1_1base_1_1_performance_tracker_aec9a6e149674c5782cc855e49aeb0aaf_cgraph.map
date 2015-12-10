@@ -1,0 +1,10 @@
+<map id="el::base::PerformanceTracker::checkpoint" name="el::base::PerformanceTracker::checkpoint">
+<area shape="rect" id="node3" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="272,5,400,51"/>
+<area shape="rect" id="node5" href="$db/d22/classel_1_1base_1_1utils_1_1_date_time.html#ac000e6ecf705c2194a173d618ff4acfd" title="Cross platform gettimeofday for Windows and unix platform. This can be used to determine current mill..." alt="" coords="253,74,419,121"/>
+<area shape="rect" id="node7" href="$d5/d63/classel_1_1_callback.html#a1e3089fd19a11965e7b98bd423116bbd" title="el::Callback::enabled" alt="" coords="264,144,408,173"/>
+<area shape="rect" id="node9" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#a59db719b214f7118f0919846a85077bf" title="el::base::threading\l::ThreadSafe::acquireLock" alt="" coords="249,197,423,243"/>
+<area shape="rect" id="node13" href="$d5/d63/classel_1_1_callback.html#a8997c7971d65062c374ef24e653061be" title="el::Callback::handle" alt="" coords="268,267,404,296"/>
+<area shape="rect" id="node15" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#a95bb166242b9691f861274a9b8ced2d9" title="el::base::threading\l::ThreadSafe::releaseLock" alt="" coords="249,319,423,366"/>
+<area shape="rect" id="node11" href="$d9/dc9/classel_1_1base_1_1threading_1_1internal_1_1_no_mutex.html#a3b38e4e9411c924daa70d358cf561b3c" title="el::base::threading\l::internal::NoMutex::lock" alt="" coords="472,197,637,243"/>
+<area shape="rect" id="node17" href="$d9/dc9/classel_1_1base_1_1threading_1_1internal_1_1_no_mutex.html#a5a248c97fee2ef0087526f2f8d3cd26e" title="el::base::threading\l::internal::NoMutex\l::unlock" alt="" coords="488,311,621,375"/>
+</map>

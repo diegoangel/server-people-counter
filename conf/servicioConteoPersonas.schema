@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://movilgate.com",
+  "type": "object",
+  "properties": {
+    "server": {
+      "id": "http://movilgate.com/server",
+      "type": "object",
+      "properties": {
+        "ip": {
+          "id": "http://movilgate.com/server/ip",
+          "type": "string"
+        },
+        "port": {
+          "id": "http://movilgate.com/server/port",
+          "type": "integer"
+        },
+        "pid": {
+          "id": "http://movilgate.com/server/pid",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ip",
+        "port",
+        "pid"
+      ]
+    },
+    "client": {
+      "id": "http://movilgate.com/client",
+      "type": "object",
+      "properties": {
+        "pid": {
+          "id": "http://movilgate.com/client/pid",
+          "type": "string"
+        },
+        "server": {
+          "id": "http://movilgate.com/client/server",
+          "type": "string"
+        },
+        "port": {
+          "id": "http://movilgate.com/client/port",
+          "type": "integer"
+        },
+        "proto": {
+          "id": "http://movilgate.com/client/proto",
+          "type": "string"
+        }
+      }
+    },
+    "devices": {
+      "id": "http://movilgate.com/devices",
+      "type": "object",
+      "properties": {
+        "192.168.0.23": {
+          "id": "http://movilgate.com/devices/192.168.0.23",
+          "type": "integer"
+        }
+      }
+    },
+    "memcached": {
+      "id": "http://movilgate.com/memcached",
+      "type": "object",
+      "properties": {
+        "host": {
+          "id": "http://movilgate.com/memcached/host",
+          "type": "string"
+        },
+        "port": {
+          "id": "http://movilgate.com/memcached/port",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "server",
+    "client",
+    "devices",
+    "memcached"
+  ]
+}

@@ -1,0 +1,6 @@
+<map id="el::base::RegisteredHitCounters::validateNTimes" name="el::base::RegisteredHitCounters::validateNTimes">
+<area shape="rect" id="node3" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="296,5,424,51"/>
+<area shape="rect" id="node5" href="$df/d72/classel_1_1base_1_1utils_1_1_registry_with_pred.html#a561a5d418106a16473ff94d43a4b6b04" title="el::base::utils::Registry\lWithPred\&lt; base::HitCounter,\l base::HitCounter::Predicate\l \&gt;::registerNew" alt="" coords="265,74,455,155"/>
+<area shape="rect" id="node7" href="$d8/d0f/classel_1_1base_1_1_hit_counter.html#ae2d7709a89362019195761416d510911" title="el::base::HitCounter\l::increment" alt="" coords="291,178,429,225"/>
+<area shape="rect" id="node9" href="$d8/d0f/classel_1_1base_1_1_hit_counter.html#a3df3a285c91b5eb690be48893d677e94" title="el::base::HitCounter\l::hitCounts" alt="" coords="291,247,429,294"/>
+</map>

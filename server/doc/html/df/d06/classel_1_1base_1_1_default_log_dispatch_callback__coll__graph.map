@@ -1,0 +1,5 @@
+<map id="el::base::DefaultLogDispatchCallback" name="el::base::DefaultLogDispatchCallback">
+<area shape="rect" id="node2" href="$d6/d31/classel_1_1_log_dispatch_callback.html" title="{el::LogDispatchCallback\n||}" alt="" coords="19,429,181,515"/>
+<area shape="rect" id="node4" href="$d5/d63/classel_1_1_callback.html" title="{el::Callback\&lt; LogDispatch\lData \&gt;\n||+ Callback()\l+ enabled()\l+ setEnabled()\l# handle()\l}" alt="" coords="12,227,188,381"/>
+<area shape="rect" id="node6" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html" title="Base of thread safe class, this class is inheritable&#45;only. " alt="" coords="36,6,164,178"/>
+</map>
