@@ -1,5 +1,0 @@
-<map id="el::base::utils::AbstractRegistry::unregisterAll" name="el::base::utils::AbstractRegistry::unregisterAll">
-<area shape="rect" id="node3" href="$db/d48/classel_1_1base_1_1utils_1_1_abstract_registry.html#a9f468010439d491e90419f9334afcdba" title="Move constructor that is useful for base classes. " alt="" coords="211,5,416,69"/>
-<area shape="rect" id="node5" href="$db/d48/classel_1_1base_1_1utils_1_1_abstract_registry.html#a5727a3cadeee6a2b10d8f46fb91956e7" title="Assignment move operator. " alt="" coords="221,93,405,157"/>
-<area shape="rect" id="node7" href="$db/d48/classel_1_1base_1_1utils_1_1_abstract_registry.html#a529677fb42e78d03c36cdea49f8877c9" title="el::base::utils::Abstract\lRegistry\&lt; T_Ptr, std::vector\l\&lt; T_Ptr * \&gt; \&gt;::reinitDeepCopy" alt="" coords="215,181,412,245"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="el::base::RegisteredLoggers::unregister" name="el::base::RegisteredLoggers::unregister">
-<area shape="rect" id="node3" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="255,5,383,51"/>
-<area shape="rect" id="node5" href="$d5/da3/classel_1_1base_1_1utils_1_1_registry.html#aab6f0ce3a99feff11add0bd8b869fcb8" title="Unregisters single entry mapped to specified unique key. " alt="" coords="240,74,397,121"/>
-<area shape="rect" id="node7" href="$d2/d28/classel_1_1_logger.html#ae51a621df3c835f51f450134ba66f8ac" title="el::Logger::id" alt="" coords="271,144,367,173"/>
-</map>

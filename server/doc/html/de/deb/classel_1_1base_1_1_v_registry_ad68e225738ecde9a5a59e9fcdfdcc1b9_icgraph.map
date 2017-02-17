@@ -1,5 +1,0 @@
-<map id="el::base::VRegistry::level" name="el::base::VRegistry::level">
-<area shape="rect" id="node3" href="$de/deb/classel_1_1base_1_1_v_registry.html#aea4fb84a03363080ee2501193084f71f" title="Sets verbose level. Accepted range is 0&#45;9. " alt="" coords="191,5,324,51"/>
-<area shape="rect" id="node7" href="$de/deb/classel_1_1base_1_1_v_registry.html#a65e202cc547cd11231d3ea0fb70765d0" title="el::base::VRegistry\l::setModules" alt="" coords="191,74,324,121"/>
-<area shape="rect" id="node5" href="$de/deb/classel_1_1base_1_1_v_registry.html#a811e62d7d016a0714b4363f47216a9da" title="el::base::VRegistry\l::setFromArgs" alt="" coords="375,39,508,86"/>
-</map>

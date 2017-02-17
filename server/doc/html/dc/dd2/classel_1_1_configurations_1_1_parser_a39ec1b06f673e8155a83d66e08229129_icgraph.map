@@ -1,5 +1,0 @@
-<map id="el::Configurations::Parser::parseFromText" name="el::Configurations::Parser::parseFromText">
-<area shape="rect" id="node3" href="$db/d63/classel_1_1_configurations.html#af262a41dff665a11889261137b62af4a" title="Parse configurations from configuration string. " alt="" coords="220,5,343,51"/>
-<area shape="rect" id="node5" href="$da/d87/classel_1_1_loggers.html#a9992995a85745639aa9aa5a2df2255f5" title="Sets configurations from global configuration file. " alt="" coords="393,5,569,51"/>
-<area shape="rect" id="node7" href="$da/d87/classel_1_1_loggers.html#a28acf6f2b1ea7e5edd1b2560cde82406" title="Configures loggers using command line arg. Ensure you have already set command line args..." alt="" coords="619,13,816,43"/>
-</map>

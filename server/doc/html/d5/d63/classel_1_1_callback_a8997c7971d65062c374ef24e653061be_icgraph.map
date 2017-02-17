@@ -1,8 +1,0 @@
-<map id="el::Callback::handle" name="el::Callback::handle">
-<area shape="rect" id="node3" href="$d1/dbc/classel_1_1base_1_1_log_dispatcher.html#a88d4a644364bb454136c85338f05da7a" title="el::base::LogDispatcher\l::dispatch" alt="" coords="209,5,369,51"/>
-<area shape="rect" id="node11" href="$d4/d8a/classel_1_1base_1_1_performance_tracker.html#a19be0aa65c8623273459185277b52b0c" title="el::base::PerformanceTracker\l::~PerformanceTracker" alt="" coords="192,74,387,121"/>
-<area shape="rect" id="node13" href="$d4/d8a/classel_1_1base_1_1_performance_tracker.html#aec9a6e149674c5782cc855e49aeb0aaf" title="A checkpoint for current performanceTracker block. " alt="" coords="192,143,387,190"/>
-<area shape="rect" id="node5" href="$d1/d13/classel_1_1base_1_1_writer.html#a1c7d90bd4e00af4e7307f5936e1b6507" title="el::base::Writer::trigger\lDispatch" alt="" coords="435,5,589,51"/>
-<area shape="rect" id="node7" href="$d1/d13/classel_1_1base_1_1_writer.html#a692d05d209840d6ae8c2c8e0bea21d29" title="el::base::Writer::process\lDispatch" alt="" coords="637,5,803,51"/>
-<area shape="rect" id="node9" href="$d1/d13/classel_1_1base_1_1_writer.html#a6db9eafd05eed680d93c7f29b786a41d" title="el::base::Writer::\l~Writer" alt="" coords="852,5,969,51"/>
-</map>

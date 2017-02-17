@@ -1,6 +1,0 @@
-<map id="el::Loggable" name="el::Loggable">
-<area shape="rect" id="node3" href="$d0/d17/classel_1_1base_1_1_log_format.html" title="Represents log format containing flags and date format. This is used internally to start initial log..." alt="" coords="5,158,155,538"/>
-<area shape="rect" id="node5" href="$d4/d8a/classel_1_1base_1_1_performance_tracker.html" title="Represents performanceTracker block of code that conditionally adds performance status to log either ..." alt="" coords="179,271,373,425"/>
-<area shape="rect" id="node7" href="$d2/d03/classel_1_1_configuration.html" title="Represents single configuration that has representing level, configuration type and a string based va..." alt="" coords="397,236,541,460"/>
-<area shape="rect" id="node9" href="$d2/d28/classel_1_1_logger.html" title="Represents a logger holding ID and configurations we need to write logs. " alt="" coords="565,210,741,486"/>
-</map>

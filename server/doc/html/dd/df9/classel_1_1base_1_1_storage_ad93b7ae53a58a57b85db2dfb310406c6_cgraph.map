@@ -1,8 +1,0 @@
-<map id="el::base::Storage::validateAfterNCounter" name="el::base::Storage::validateAfterNCounter">
-<area shape="rect" id="node3" href="$dd/df9/classel_1_1base_1_1_storage.html#accd5495cdad77254eb24ef8f75cd71ad" title="el::base::Storage::\lhitCounters" alt="" coords="247,66,375,113"/>
-<area shape="rect" id="node5" href="$d2/dd5/classel_1_1base_1_1_registered_hit_counters.html#af6fa32ffd76776863d8bd2f0e9b341fc" title="Validates counter for hits &gt;= N, i.e, registers new if does not exist otherwise updates original one..." alt="" coords="207,135,415,182"/>
-<area shape="rect" id="node7" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="496,5,624,51"/>
-<area shape="rect" id="node9" href="$df/d72/classel_1_1base_1_1utils_1_1_registry_with_pred.html#a561a5d418106a16473ff94d43a4b6b04" title="el::base::utils::Registry\lWithPred\&lt; base::HitCounter,\l base::HitCounter::Predicate\l \&gt;::registerNew" alt="" coords="465,74,655,155"/>
-<area shape="rect" id="node11" href="$d8/d0f/classel_1_1base_1_1_hit_counter.html#a3df3a285c91b5eb690be48893d677e94" title="el::base::HitCounter\l::hitCounts" alt="" coords="491,178,629,225"/>
-<area shape="rect" id="node13" href="$d8/d0f/classel_1_1base_1_1_hit_counter.html#ae2d7709a89362019195761416d510911" title="el::base::HitCounter\l::increment" alt="" coords="491,247,629,294"/>
-</map>

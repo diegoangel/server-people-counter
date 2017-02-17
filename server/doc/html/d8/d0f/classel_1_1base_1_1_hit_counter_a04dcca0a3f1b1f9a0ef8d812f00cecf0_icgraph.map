@@ -1,4 +1,0 @@
-<map id="el::base::HitCounter::validateHitCounts" name="el::base::HitCounter::validateHitCounts">
-<area shape="rect" id="node3" href="$d2/dd5/classel_1_1base_1_1_registered_hit_counters.html#a18fecedc6be778cfd63e30cc42fb9c82" title="Validates counter for every N, i.e, registers new if does not exist otherwise updates original one..." alt="" coords="193,5,401,51"/>
-<area shape="rect" id="node5" href="$dd/df9/classel_1_1base_1_1_storage.html#ae99093b82b3f25b6baf5d3d8b00b27e5" title="el::base::Storage::\lvalidateEveryNCounter" alt="" coords="451,5,608,51"/>
-</map>

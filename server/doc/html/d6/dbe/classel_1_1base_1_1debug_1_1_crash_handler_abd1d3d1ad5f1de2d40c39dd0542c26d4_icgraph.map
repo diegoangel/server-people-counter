@@ -1,4 +1,0 @@
-<map id="el::base::debug::CrashHandler::setHandler" name="el::base::debug::CrashHandler::setHandler">
-<area shape="rect" id="node3" href="$d6/dbe/classel_1_1base_1_1debug_1_1_crash_handler.html#a1d1e1a77bb6c37b1fbb39ecf94b38983" title="el::base::debug::CrashHandler\l::CrashHandler" alt="" coords="255,5,452,51"/>
-<area shape="rect" id="node5" href="$d2/d7d/classel_1_1_helpers.html#a4155f6fff0074ad93aa56fd7fe064097" title="Overrides default crash handler and installs custom handler. " alt="" coords="259,75,448,104"/>
-</map>

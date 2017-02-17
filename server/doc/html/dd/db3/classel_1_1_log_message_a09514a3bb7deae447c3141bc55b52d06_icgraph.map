@@ -1,7 +1,0 @@
-<map id="el::LogMessage::level" name="el::LogMessage::level">
-<area shape="rect" id="node3" href="$df/d52/classel_1_1base_1_1_default_log_builder.html#aa8d2f42068115d899ed81de1b0ed360e" title="el::base::DefaultLogBuilder\l::build" alt="" coords="203,5,381,51"/>
-<area shape="rect" id="node5" href="$d1/dbc/classel_1_1base_1_1_log_dispatcher.html#a88d4a644364bb454136c85338f05da7a" title="el::base::LogDispatcher\l::dispatch" alt="" coords="212,74,372,121"/>
-<area shape="rect" id="node7" href="$d1/d13/classel_1_1base_1_1_writer.html#a1c7d90bd4e00af4e7307f5936e1b6507" title="el::base::Writer::trigger\lDispatch" alt="" coords="429,74,584,121"/>
-<area shape="rect" id="node9" href="$d1/d13/classel_1_1base_1_1_writer.html#a692d05d209840d6ae8c2c8e0bea21d29" title="el::base::Writer::process\lDispatch" alt="" coords="632,74,797,121"/>
-<area shape="rect" id="node11" href="$d1/d13/classel_1_1base_1_1_writer.html#a6db9eafd05eed680d93c7f29b786a41d" title="el::base::Writer::\l~Writer" alt="" coords="847,74,964,121"/>
-</map>

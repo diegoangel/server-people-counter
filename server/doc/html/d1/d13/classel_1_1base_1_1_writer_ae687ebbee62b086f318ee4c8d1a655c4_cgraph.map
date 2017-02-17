@@ -1,8 +1,0 @@
-<map id="el::base::Writer::initializeLogger" name="el::base::Writer::initializeLogger">
-<area shape="rect" id="node3" href="$d1/d13/classel_1_1base_1_1_writer.html#ac2a835925f37fd2ca3da00998d8a533c" title="el::base::Writer::Writer" alt="" coords="232,5,387,35"/>
-<area shape="rect" id="node5" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#a59db719b214f7118f0919846a85077bf" title="el::base::threading\l::ThreadSafe::acquireLock" alt="" coords="223,58,396,105"/>
-<area shape="rect" id="node9" href="$d2/d28/classel_1_1_logger.html#a5abaca24ac28bfd4806bea32be193435" title="el::Logger::enabled" alt="" coords="244,128,375,157"/>
-<area shape="rect" id="node13" href="$d7/d50/classel_1_1_level_helper.html#a6576fd7cd6d1d839952145115c6e4b38" title="Casts level to int, useful for iterating through enum. " alt="" coords="224,181,395,211"/>
-<area shape="rect" id="node7" href="$d9/dc9/classel_1_1base_1_1threading_1_1internal_1_1_no_mutex.html#a3b38e4e9411c924daa70d358cf561b3c" title="el::base::threading\l::internal::NoMutex::lock" alt="" coords="461,54,627,101"/>
-<area shape="rect" id="node11" href="$d1/df2/classel_1_1base_1_1_typed_configurations.html#a924b35df988103c737907cc7993c3c1c" title="el::base::TypedConfigurations\l::enabled" alt="" coords="447,123,641,170"/>
-</map>

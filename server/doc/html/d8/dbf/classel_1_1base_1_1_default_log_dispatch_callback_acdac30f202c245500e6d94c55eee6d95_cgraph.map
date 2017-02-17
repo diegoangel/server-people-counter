@@ -1,7 +1,0 @@
-<map id="el::base::DefaultLogDispatchCallback::handle" name="el::base::DefaultLogDispatchCallback::handle">
-<area shape="rect" id="node3" href="$d8/d21/classel_1_1_log_dispatch_data.html#ad52d4ddc330b6260bf10e9879a653829" title="el::LogDispatchData\l::logMessage" alt="" coords="253,5,395,51"/>
-<area shape="rect" id="node5" href="$dd/db3/classel_1_1_log_message.html#ae67b30a16a4115148ee32c9b2c91e03c" title="el::LogMessage::logger" alt="" coords="245,75,403,104"/>
-<area shape="rect" id="node7" href="$d2/d28/classel_1_1_logger.html#aead5b130c5141d2024740b03ab4b45d7" title="el::Logger::logBuilder" alt="" coords="252,128,396,157"/>
-<area shape="rect" id="node9" href="$d6/d6c/classel_1_1_log_builder.html#a5abbc1d4bdadb63967b0d11881aef963" title="el::LogBuilder::build" alt="" coords="256,181,392,211"/>
-<area shape="rect" id="node11" href="$d8/d21/classel_1_1_log_dispatch_data.html#aee0808c660aa39b34ee69850a2c74c09" title="el::LogDispatchData\l::dispatchAction" alt="" coords="253,234,395,281"/>
-</map>

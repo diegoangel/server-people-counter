@@ -1,6 +1,0 @@
-<map id="el::base::HitCounter::increment" name="el::base::HitCounter::increment">
-<area shape="rect" id="node3" href="$d2/dd5/classel_1_1base_1_1_registered_hit_counters.html#af6fa32ffd76776863d8bd2f0e9b341fc" title="Validates counter for hits &gt;= N, i.e, registers new if does not exist otherwise updates original one..." alt="" coords="193,5,401,51"/>
-<area shape="rect" id="node7" href="$d2/dd5/classel_1_1base_1_1_registered_hit_counters.html#aa270c1b9a8cc3a4d12cea45e07560d98" title="Validates counter for hits are &lt;= n, i.e, registers new if does not exist otherwise updates original ..." alt="" coords="193,74,401,121"/>
-<area shape="rect" id="node5" href="$dd/df9/classel_1_1base_1_1_storage.html#ad93b7ae53a58a57b85db2dfb310406c6" title="el::base::Storage::\lvalidateAfterNCounter" alt="" coords="456,5,605,51"/>
-<area shape="rect" id="node9" href="$dd/df9/classel_1_1base_1_1_storage.html#a141d7ef080be7eae11ac6201a538eec9" title="el::base::Storage::\lvalidateNTimesCounter" alt="" coords="452,74,609,121"/>
-</map>

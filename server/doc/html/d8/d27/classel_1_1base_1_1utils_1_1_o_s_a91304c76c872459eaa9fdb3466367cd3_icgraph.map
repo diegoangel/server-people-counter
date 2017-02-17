@@ -1,6 +1,0 @@
-<map id="el::base::utils::OS::getBashOutput" name="el::base::utils::OS::getBashOutput">
-<area shape="rect" id="node3" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#a91540f3d8c87bd121e55fc39270eac3c" title="Gets environment variable. This is cross&#45;platform and CRT safe (for VC++) " alt="" coords="181,74,349,121"/>
-<area shape="rect" id="node5" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#ac7839ecd50e379dbdfcfce130906386e" title="Gets current username. " alt="" coords="404,5,529,51"/>
-<area shape="rect" id="node7" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#aae4fdf83828228fc440f8a875c5942b0" title="Gets current host name or computer name. " alt="" coords="404,74,529,121"/>
-<area shape="rect" id="node9" href="$d8/d27/classel_1_1base_1_1utils_1_1_o_s.html#a2c941329a14ce0ea920f57779857864c" title="Whether or not terminal supports colors. " alt="" coords="397,143,536,190"/>
-</map>

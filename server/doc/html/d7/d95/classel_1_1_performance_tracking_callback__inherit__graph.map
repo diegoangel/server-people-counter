@@ -1,5 +1,0 @@
-<map id="el::PerformanceTrackingCallback" name="el::PerformanceTrackingCallback">
-<area shape="rect" id="node7" href="$d4/dd2/classel_1_1base_1_1_default_performance_tracking_callback.html" title="{el::base::DefaultPerformance\lTrackingCallback\n||# handle()\l}" alt="" coords="16,563,208,666"/>
-<area shape="rect" id="node2" href="$d5/d63/classel_1_1_callback.html" title="{el::Callback\&lt; Performance\lTrackingData \&gt;\n||+ Callback()\l+ enabled()\l+ setEnabled()\l# handle()\l}" alt="" coords="24,227,200,381"/>
-<area shape="rect" id="node4" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html" title="Base of thread safe class, this class is inheritable&#45;only. " alt="" coords="48,6,176,178"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="el::base::utils::DateTime::gettimeofday" name="el::base::utils::DateTime::gettimeofday">
-<area shape="rect" id="node3" href="$db/d22/classel_1_1base_1_1utils_1_1_date_time.html#aa813c606a98b8741f59ccdf5aacef733" title="Gets current date and time with milliseconds. " alt="" coords="233,5,399,51"/>
-<area shape="rect" id="node7" href="$d4/d8a/classel_1_1base_1_1_performance_tracker.html#a46ac6a851c6d1cde6742a7ebfeedd1b6" title="el::base::PerformanceTracker\l::PerformanceTracker" alt="" coords="219,74,413,121"/>
-<area shape="rect" id="node9" href="$d4/d8a/classel_1_1base_1_1_performance_tracker.html#a19be0aa65c8623273459185277b52b0c" title="el::base::PerformanceTracker\l::~PerformanceTracker" alt="" coords="219,143,413,190"/>
-<area shape="rect" id="node11" href="$d4/d8a/classel_1_1base_1_1_performance_tracker.html#aec9a6e149674c5782cc855e49aeb0aaf" title="A checkpoint for current performanceTracker block. " alt="" coords="219,213,413,259"/>
-<area shape="rect" id="node5" href="$df/d52/classel_1_1base_1_1_default_log_builder.html#aa8d2f42068115d899ed81de1b0ed360e" title="el::base::DefaultLogBuilder\l::build" alt="" coords="461,5,640,51"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="el::Configurations::setToDefault" name="el::Configurations::setToDefault">
-<area shape="rect" id="node3" href="$db/d63/classel_1_1_configurations.html#a56c82c15ea39cc230a5c85ec2c41cbfd" title="Sets configuration for all levels. " alt="" coords="193,5,316,51"/>
-<area shape="rect" id="node5" href="$db/d63/classel_1_1_configurations.html#a332717de96efc851a202b7afcc5e395c" title="Sets value of configuration for specified level. " alt="" coords="180,75,329,104"/>
-<area shape="rect" id="node7" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#affb45b35790a7305d0a659562c8104fc" title="el::base::threading\l::ThreadSafe::lock" alt="" coords="380,66,508,113"/>
-</map>

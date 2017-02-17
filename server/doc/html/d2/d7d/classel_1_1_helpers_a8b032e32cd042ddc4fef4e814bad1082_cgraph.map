@@ -1,7 +1,0 @@
-<map id="el::Helpers::convertTemplateToStdString" name="el::Helpers::convertTemplateToStdString">
-<area shape="rect" id="node3" href="$d8/d64/classel_1_1base_1_1_message_builder.html#a61729d9b620eb7b3e6ac1af69364553c" title="el::base::MessageBuilder\l::initialize" alt="" coords="249,5,417,51"/>
-<area shape="rect" id="node5" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#a59db719b214f7118f0919846a85077bf" title="el::base::threading\l::ThreadSafe::acquireLock" alt="" coords="247,74,420,121"/>
-<area shape="rect" id="node9" href="$d3/df9/classel_1_1base_1_1threading_1_1_thread_safe.html#a95bb166242b9691f861274a9b8ced2d9" title="el::base::threading\l::ThreadSafe::releaseLock" alt="" coords="247,146,420,193"/>
-<area shape="rect" id="node7" href="$d9/dc9/classel_1_1base_1_1threading_1_1internal_1_1_no_mutex.html#a3b38e4e9411c924daa70d358cf561b3c" title="el::base::threading\l::internal::NoMutex::lock" alt="" coords="469,71,635,118"/>
-<area shape="rect" id="node11" href="$d9/dc9/classel_1_1base_1_1threading_1_1internal_1_1_no_mutex.html#a5a248c97fee2ef0087526f2f8d3cd26e" title="el::base::threading\l::internal::NoMutex\l::unlock" alt="" coords="485,141,619,205"/>
-</map>
