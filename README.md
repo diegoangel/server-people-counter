@@ -33,8 +33,3 @@ Dependencias del cliente UDP en Perl:
 ### Instalación y Configuración ###
 
 
-### Integración en Plataforma M2M ###
-
-URL:http://clientes.movilgate.com/m2m2  
-USER: irisys  
-PASSWD: 1r1sys
